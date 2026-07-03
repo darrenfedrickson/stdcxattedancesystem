@@ -1,4 +1,5 @@
-# Internship Attendance Tracking System
+# STDCx Attendance System with Facial Recognition
+
 A local-first internship attendance tracking application with strict security binding and an "Apple Monochrome" aesthetic.
 
 ## Local Machine Lockout Configuration
