@@ -1,0 +1,27 @@
+/* Similar to global but tailored for admin dashboard layout */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+:root {
+  --apple-font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+  font-family: var(--apple-font);
+  background-color: #fafafa;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+}
+.fade-in { animation: fadeIn 0.4s ease-out forwards; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* Leaflet map styles */
+#map {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.75rem;
+    z-index: 10;
+}
+/* Inputs */
+input:focus, select:focus, button:focus {
+  outline: none;
+}
